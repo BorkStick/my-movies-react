@@ -1,5 +1,6 @@
 {
   "name": "my-movies",
+  "homepage": "https://borkstick.github.io/my-movies-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

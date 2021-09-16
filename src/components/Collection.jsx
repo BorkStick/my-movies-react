@@ -3,7 +3,7 @@ import "../styles/Collection.css";
 
 const Collection = ({ children, title }) => {
   return (
-    <div>
+    <div className="py-3">
       <h2 className="primary-subheadline">{title}</h2>
       {children}
     </div>

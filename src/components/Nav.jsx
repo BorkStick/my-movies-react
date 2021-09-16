@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Nav() {
   return (
@@ -24,12 +24,24 @@ export default function Nav() {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link className="nav-link active" aria-current="page" to="/">
-                  Home
+                  <i class="fas fa-home"></i>
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/movies">
+                  Movies
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/about">
                   About
+                </Link>
+              </li>
+            </ul>
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <Link className="nav-link" to="/search">
+                  <i class="fas fa-search"></i>
                 </Link>
               </li>
             </ul>

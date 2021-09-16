@@ -5,7 +5,6 @@ import Movie from "../components/Movie";
 export default function Home() {
   return (
     <div>
-
       <Collection title="Movie About Space">
         <Movie
           title="2001 A Space Odesy"

@@ -1,10 +1,15 @@
 import "./App.css";
+import React from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
 import Nav from "./components/Nav";
 import Collection from "./components/Collection";
 import Movie from "./components/Movie";
 
 function App() {
   return (
+    <Router>
+
     <div className="App">
       <Nav />
 
@@ -56,6 +61,7 @@ function App() {
           genre="Action"
         />
       </Collection>
+    </Router>
     </div>
   );
 }

@@ -8,7 +8,7 @@ const Movie = ({title, img, description, year, genre}) => {
 
             
             <div className="col">
-            <img src={img} alt="image here" />
+            <img src={img} alt="" />
 
             </div>
             <div className="col" id="text">

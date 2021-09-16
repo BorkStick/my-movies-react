@@ -1,5 +1,5 @@
 # My Movies - React
-![screenshot](./public/screenshot.png) 
+![screenshot](./public/my-movies-react.png) 
 ## Info
 A app that shows movies in collections
 
